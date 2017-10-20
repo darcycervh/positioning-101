@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.first-element{
+    outline: 2px solid blue;
+}
+li{
+    text-decoration: none;
+    list-style-type: none;
+    background: #b7d84b;
+    width: 902px;
+    left: 225px;
+    right: 1127px;
+    bottom: 49px;
+    margin: auto;
+
+    
+    
+}
+.body-text{
+    position: relative;
+    overflow: top;
+    margin-top: 16px;
+    outline: 2px solid blueviolet;
+}
+.text-right{
+    outline: 2px solid red;
+}

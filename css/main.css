@@ -1,0 +1,95 @@
+/*Agregando las propiedades para el primer ejemplo de posicionamiento estático*/
+
+/*Posición estática*/
+#box_1 { 
+	position: static;
+	width: 200px;
+	height: 200px;
+	background: #ee3e64;
+}
+
+#box_2 { 
+	position: static;
+	width: 200px;
+	height: 200px;
+	background: #44accf;
+}
+
+#box_3 { 
+	position: static;
+	width: 200px;
+	height: 200px;
+	background: #b7d84b;
+}
+
+/*Posición Relativa*/
+
+#box_4 { 
+	position: relative;
+	width: 200px;
+	height: 200px;
+	background: #ee3e64;
+}
+/*Al parecer, no hay mucha diferencia con la posición estática, así que se cambia aquí la posición de este segundo bloque y ver que en efecto los bloques cercanos respetan el espacio que tuvo el segundo cuadro, pero se puede modificar su flujo modificando la estructura html*/
+#box_5 { 
+    position: relative;
+    left: 200px;    
+	width: 200px;
+	height: 200px;
+	background: #44accf;
+}
+
+#box_6 { 
+	position: relative;
+	width: 200px;
+	height: 200px;
+	background: #b7d84b;
+}
+/*Posición Absoluta*/
+/*aquí solo he modificado el top para no ocultar el primer ejercicio de posición estática*/
+#box_7 { 
+	position: absolute;
+	top: 170%;
+	left: 0;
+	width: 200px;
+	height: 200px;
+	background: #ee3e64;
+}
+#box_8 { 
+	position: absolute;
+	top: 170%;
+	right: 0;
+	width: 200px;
+	height: 200px;
+	background: #44accf;
+}
+#box_9 { 
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 200px;
+	height: 200px;
+    background: #b7d84b;
+    top:250%;
+}
+#box_10 { 
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 200px;
+	height: 200px;
+    background: #ebde52;
+    top:250%;
+}
+
+/*Posición fija*/
+/*aquí he modificado los valores para diferenciar la posición fija de las demás posiciones*/
+#box_11{
+    position: fixed; 
+    bottom: 0;
+	right: 0%;
+	width: 200px;
+	height: 200px;
+    background: tomato;
+    top:10px;
+}
