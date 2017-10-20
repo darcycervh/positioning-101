@@ -6,6 +6,7 @@ body{
 }
 li{
     display: block;
+    margin-top: 0px;
     float: left;
     color: #fff;
     text-decoration: none;
@@ -13,18 +14,23 @@ li{
     line-height: 50px;
     border-right: 1px solid #91ab3b;   
 }
-
-a{
-    text-decoration: none;
-    height: 50px;
-    background: #b7d84b;
+div{
     display: block;
-    top:0;
     float: left;
+    color: #fff;
+    text-decoration: none;
     padding: 0 20px;
     line-height: 50px;
+    border-right: 1px solid #91ab3b;
+}
+a{
+    display: block;
+    float: left;
     color: #fff;
-    margin-right: 10%;
+    text-decoration: none;
+    padding: 0 20px;
+    line-height: 50px;
+    border-right: 1px solid #91ab3b;
 }
 .first-element{
     display: block;
@@ -34,7 +40,7 @@ body{
     margin: 0 auto;
     
 }
-.article{
+article{
     position: relative;
     padding: 20px 250px 60px 20px;
     background: #fff;
